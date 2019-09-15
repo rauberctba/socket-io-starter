@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "module": "commonjs",
+        "target": "es2017",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "types": ["node"],
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "strict": true,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "pretty": true,
+        "lib": [
+          "es2017",
+          "dom"
+        ]  
+    },
+    "exclude": [
+          "**/*.spec.ts"
+    ]
+}

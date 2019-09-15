@@ -1,0 +1,36 @@
+{
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json",
+        "isolatedModules": true,
+        "diagnostics": false
+      }
+    },
+    "transform": {
+      "^.+\\.ts$": "ts-jest",
+      "^.+\\.js$": "babel-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "moduleNameMapper": {
+    },
+    "transformIgnorePatterns": [
+      "node_modules"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.ts",
+      "!<rootDir>/src/**/*.d.ts"
+    ],
+    "coverageDirectory": "<rootDir>/reports/coverage",
+    "coverageReporters": [
+      "html",
+      "text-summary"
+    ],
+    "coveragePathIgnorePatterns": [
+      "!<rootDir>/src/"
+    ],
+    "testURL": "http://localhost/"
+}

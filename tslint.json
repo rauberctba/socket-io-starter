@@ -1,0 +1,100 @@
+{
+    "linterOptions": {
+        "exclude": [
+            "node_modules"
+        ]
+    },
+    "rules": {
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "curly": true,
+        "for-in": false,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "no-any": false,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-consecutive-blank-lines": true,
+        "no-construct": true,
+        "no-duplicate-variable": true,
+        "no-empty": true,
+        "no-eval": true,
+        "no-string-literal": true,
+        "no-shadowed-variable": true,
+        "no-switch-case-fall-through": true,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ],
+        "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-var-keyword": true,
+        "one-variable-per-declaration": true,
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "radix": true,
+        "semicolon": [
+            true,
+            "always",
+            "ignore-bound-class-methods"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "type-def": [
+            false,
+            "call-signature",
+            "index-signature",
+            "parameter",
+            "property-signature",
+            "variable-declarator",
+            "member-variable-declarator"
+        ],
+        "typedef-whitespace": [
+            true,
+            "call-signature"
+        ],
+        "variable-name": [
+            false,
+            "allow-leading-underscore"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "no-debugger": true,
+        "no-console": [
+            true,
+            "log",
+            "error",
+            "warn",
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ]
+    }
+}
