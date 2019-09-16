@@ -14,10 +14,10 @@ export class SocketServer {
         this._io = socketIo(this._http);
 
         this._io.on('connection', (socket) => {
-            this._logger.log('a user connected');
+            this._logger.info('a user connected');
 
             socket.on('disconnect', () => {
-                this._logger.log('user disconnected');
+                this._logger.info('user disconnected');
             });
 
             socket.on('chat message', (msg) => {
